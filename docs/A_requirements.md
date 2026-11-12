@@ -14,3 +14,4 @@
 | ID | Question for the client | Why I ask (which sources disagree?) | My proposal until answered |
 |---|---|---|---|
 | Q-01 | Apakah validasi tanda tangan DPJP pada resume medis perlu menggunakan tanda tangan digital (e-signature)? | SOP internal rumah sakit belum merinci penggunaan tanda tangan digital secara penuh | Menggunakan status konfirmasi centang manual oleh petugas verifikasi |
+
