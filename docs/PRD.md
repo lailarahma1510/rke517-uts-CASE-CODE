@@ -3,15 +3,18 @@
 Anything the client did not say is labelled **(my assumption)**.
 
 ## 1. Problem and goal
-Masalah: Bulan lalu terdapat 46 klaim BPJS yang pending karena ada halaman berkas yang hilang. Selain itu, pencatatan masih manual/Excel terpecah di 3 komputer, dan kedisiplinan pengiriman berkas dari bangsal melewati batas waktu 3 hari (SPO RM-54).
-Tujuan (Goal): Membuat aplikasi/sistem pengecekan kelengkapan berkas klaim BPJS secara digital agar Bapak Dedi Kurniawan dapat memantau status setiap kasus secara real-time tanpa harus bertanya ke staf.
+Masalah: 
+Bulan lalu terdapat 46 klaim BPJS yang pending karena ada halaman berkas yang hilang. Selain itu, pencatatan masih manual/Excel terpecah di 3 komputer, dan kedisiplinan pengiriman berkas dari bangsal melewati batas waktu 3 hari (SPO RM-54).
+Tujuan (Goal):
+- Membuat aplikasi/sistem pengecekan kelengkapan berkas klaim BPJS secara digital agar Bapak Dedi Kurniawan dapat memantau status setiap kasus secara real-time tanpa harus bertanya ke staf.
+- Menyediakan layar/antarmuka khusus bagi perawat bangsal (ward nurse) untuk melihat daftar berkas yang dikembalikan (retur) beserta alasan pengembaliannya secara real-time.
 ## 2. Users and scope
 | User | What they do in the app |
 |---|---|
 | Claims Officer (Mas Andi) | Memeriksa kelengkapan berkas klaim (SEP, resume medis, lab, billing) dan memperbarui status berkas. |
 | Ward Nurse | Mengirimkan folder berkas dari bangsal serta memastikan kepatuhan batas waktu pengiriman 3 hari. |
 | Finance Officer (Bapak Dedi) | Memantau status rekapitulasi klaim secara real-time untuk mencegah klaim pending. |
-
+Ward Nurse | Mengirimkan folder berkas dari bangsal, memastikan kepatuhan batas waktu pengiriman 3 hari, serta memantau layar status berkas yang dikembalikan beserta alasannya.
 **IN:** Berkas klaim BPJS masuk dari bangsal (SEP, resume medis bertanda tangan DPJP, hasil lab, billing).
 **OUT:** Status kelengkapan berkas, laporan rekapitulasi klaim harian/bulanan, dan notifikasi keterlambatan bangsal.
 
